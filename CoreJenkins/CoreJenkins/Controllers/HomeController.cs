@@ -20,6 +20,7 @@ namespace CoreJenkins.Controllers
 
         public IActionResult Index()
         {
+            string s = "Auto Deployment Test";
             return View();
         }
 
